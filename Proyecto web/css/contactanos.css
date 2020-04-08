@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Rock+Salt');
-
 
 html, body, section {
     height: 100%;
@@ -22,8 +20,8 @@ body {
     align-items: flex-start;
 }
 
-/* con codigo propio */
-div, #formContacto {
+/* con codigo propio - correccion*/
+.xop-container div, #formContacto {
     display: flex;
     flex-direction: column;
     justify-content: center;
