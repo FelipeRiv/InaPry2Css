@@ -6538,6 +6538,10 @@ button.bg-dark:hover {
     border-radius: 50%!important
 }
 
+.rounded-circle-45 {
+    border-radius: 45%!important
+}
+
 .rounded-0 {
     border-radius: 0!important
 }

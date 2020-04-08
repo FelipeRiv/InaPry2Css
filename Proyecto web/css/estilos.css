@@ -169,7 +169,7 @@ SHOW DE LOS MEDIAS QUERIES
 
 /* codigo */
 #tituloPrincipal{
-  margin-top: 170px;
+  margin-top: -85px;
 }
 
 /* Fin codigo */
@@ -183,6 +183,10 @@ body{
 
 }
 
+#dev-img-index{
+  margin-top: -100px;
+}
+
 
 /* FIN - CARRUSEL*/
 
@@ -193,10 +197,9 @@ body{
   width: 20%;
   margin: 15px auto;
 
-  position: relative;
-  z-index: 100;
+
+  opacity: 0;
 
 }
-/*Fin - Seccion de Proyectos   */
 
 
