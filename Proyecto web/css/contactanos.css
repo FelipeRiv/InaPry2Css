@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Rock+Salt');
+
+
+html, body, section {
+    height: 100%;
+}
+/* codigo prop  */
+body {
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.xop-container {
+    margin-top: 100px;
+    display: flex;
+}
+
+.xop-container article{
+    
+    align-items: flex-start;
+}
+
+/* con codigo propio */
+div, #formContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    align-items: center;
+}
+
+/* codigo priopop */
+#formContacto div{
+    display: flex;
+    flex-direction: row;
+}
+
+.xop-left {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(255,255,255,0.10)),
+        url(../images/city.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.xop-right {
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(164,222,102, 0.10)),
+        url(../images/country.jpg);
+        background-size: cover;
+        background-position: center;
+    flex: 1;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+/* codigo propio */
+.xop-left:hover, .xop-right:hover {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 80px dodgerblue;
+}
+
+.xop-left h1 { 
+    font-family:'open sans', 'sans-serif', cursive;
+    font-size: 16px;
+}
+
+.xop-right h1 {
+    font-family: 'open sans', 'sans-serif', cursive;
+    font-size: 16px;
+}
+
+.xop-button {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0 2%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 150px;
+}
+
+.xop-button:hover {
+    background: #fcc567;
+    color: #fff;
+}
+
+
+/* CODIGO PROPIO */
+
+
+#formContacto label, input, textarea{
+    margin: 10px;
+    font-family: 'Open-sans';
+}
+
+input, textarea, label{
+    width: 350px;
+    text-align: left;
+    font-size: 16px;
+}
+
+input, textarea{
+    width: 200px;
+    text-align: left;
+    margin-left: -110px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* FIN CODIGO PROPIO */
+
+
+#socialIconGroup{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+
+}
+
+
+#socialIconGroup  i{
+    font-size: 50px;
+    margin: 20px;
+    color: rgba(255,255,255, 0.8);
+    
+    
+    transition: all 0.3s linear;
+    
+    
+}
+
+#socialIconGroup i:hover{
+    transform: scale(1.3);
+    color: rgba(255,255,255, 1);
+    border-radius: 400px;
+    box-shadow: 0px 0px 30px dodgerblue;
+
+    
+
+}
+
+#ubicacion iframe{
+    margin-top: 25px;
+    width: 190px;
+    height: 180px;
+    border-radius: 900px;
+    /* box-shadow: 0px 0px 40px green; */
+
+    transition: all 0.3s linear;
+}
+
+#ubicacion iframe:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 40px dodgerblue;
+   
+    
+}
+
+input[type="file"]{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+
+    border-radius: 30px;
+    color: #fff;
+    background-color: #fcad26;
+    padding: 1.5%;
+    margin: 0 2%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+
+    transition: all 1.3s;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #fdcf8a;
+
+
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+input:focus, textarea:focus{
+    /* background-color: rgb(151, 203, 255); */
+    background-color: #343a40;
+    color: white;
+    box-shadow: 0px 0px 40px dodgerblue;
+    /* opacity: 0.4; */
+}
+
+/* FIN FORM */

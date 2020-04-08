@@ -14,8 +14,27 @@
   <!-- ARCHIVOS CSS PERSONALIZADOS -->
   <link type="text/css" rel="stylesheet" href="../css/estilos.css">
   <link type="text/css" rel="stylesheet" href="../css/animate.css">
+
+  <!-- revisar -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+ 
+
+
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <!-- <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/contactanos.css" rel="stylesheet" type="text/css">
+  <link href="../css/xopixel.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../css/ico/style.css">
+  <!-- revisar -->
+
+
+
   <title>Blog personal de Felipe Rivera</title>
-  
+
+
+
 </head>
 
 <body>
@@ -44,45 +63,87 @@
   </nav>
 
 
+<div class="clearFix"></div>
 
-  <div class="clearFix"></div>
+  <section class="xop-container">
+    <div class="xop-left">
+      <article>
+        <h1>¿Tienes alguna duda?</h1>
 
-  <!-- SECCION QUIEN SOY -->
-  <section class="quien-soy py-4 mt-5">
-    <div class="container margTop">
-      <div class="row">
+        <form action="" id="formContacto">
+          <div>
+            <label for="">¿Dime como te llamas?</label>
+            <input type="text" name="" id="">
 
-        <!-- valores -  -->
-  
-      </div>
+          </div>
+
+          <div>
+            <label for="mail">¿Email por donde charlar?</label>
+            <input type="email" name="mail" id="mail">
+          </div>
+
+          <div>
+            <label for="tel">¿A que número te llamo?</label>
+            <input type="tel" id="phone" name="phone" placeholder="506-8888-8888" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+              required>
+
+          </div>
+
+          <div>
+            <label for="">¿Que ideas tienes para mí?</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+
+          </div>
+
+          <div>
+            <input class="inputfile xop-button" type="file" id="file">
+            <label for="file">Adjutar archivos</label>
+          </div>
+
+          <input class="xop-button" type="submit" name="btnFormContacto" id="btnFormContacto" value="Enviar">
+        </form>
+
+      </article>
     </div>
-  </section>
+    <div class="xop-right">
+      <article>
+        <h1>Ponte en Contácto conmigo</h1>
 
+        <div id="socialIconGroup">
+          <div>
+            <!-- <a href="##"> -->
+            <i class="icon-facebook"></i>
+            <!-- </a> -->
 
-  <!-- SECCION FILOSOFIA  -->
-  <section class="filosofia py-4 bg-primary text-center text-white">
+          </div>
+          <div>
+            <i class="icon-whatsapp"></i>
 
-    <div class="container">
-      <div class="row">
- 
-      </div>
-    </div>
-  </section>
+          </div>
+          <div>
+            <i class="icon-instagram"></i>
 
-  <!-- SECCION PROYECTOS -->
-  <section class="proyectos py-4">
-    <div class="container">
-     
+          </div>
+          <div>
+            <i class="icon-youtube"></i>
 
+          </div>
         </div>
+        <!-- <a class="xop-button">Explore</a> -->
+      </article>
 
-      </div>
-
+      <article id="ubicacion">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7860.615528368769!2d-83.99261812558733!3d9.908305090490378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e110d8b75f23%3A0x2ad7053664ac63e!2sCartago%20Province%2C%20Tres%20Rios!5e0!3m2!1sen!2scr!4v1586363969389!5m2!1sen!2scr"
+          frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </article>
     </div>
   </section>
+
+
 
   <!-- SECCION PIE DE PÁGINA -->
-  <footer class="pie-de-pagina text-center bg-dark text-white" >
+  <footer class="pie-de-pagina text-center bg-dark text-white">
     <div class="container">
       <p class="m-0 py-3">Copyright © 2020. Todos los derechos reservados. </p>
     </div>
@@ -99,7 +160,7 @@
   <script src="../js/popper.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
 
-<!-- animaciones y waypoints  -->
+  <!-- animaciones y waypoints  -->
   <script src="../js/animations.js"></script>
   <script src="../js/jquery.waypoints.js"></script>
 </body>
