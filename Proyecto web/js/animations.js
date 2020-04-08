@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.boxProyectCenter').waypoint(function() {
         $('.boxProyectCenter').addClass('bounceInDown animated slower');
         $('.boxProyectCenter').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
-    }, { offset: '115%' });
+    }, { offset: '60%' });
    
   });
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
     $('.boxProyectRight').waypoint(function() {
         $('.boxProyectRight').addClass('bounceInRight animated slower delay-1s');
         $('.boxProyectRight').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
-    }, { offset: '115%' });
+    }, { offset: '60%' });
    
   });
 
@@ -34,7 +34,7 @@ $(document).ready(function(){
     $('.boxProyectLeft').waypoint(function() {
         $('.boxProyectLeft').addClass('bounceInLeft animated slower delay-1s');
         $('.boxProyectLeft').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
-    }, { offset: '115%' });
+    }, { offset: '60%' });
    
   });
 
