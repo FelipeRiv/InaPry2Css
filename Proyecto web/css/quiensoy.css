@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-typing{
+    background-image: url('../images/linedpaper.png');
+    border-radius: 20px;
+}
+
+.container-typing {
+    width: 960px;
+    margin: -62px auto 0px auto;
+}
+
+.container-typing p{ 
+    font-family: 'Inconsolata', monospace;
+    font-size: 34px;
+    color: dimgray;
+    white-space: nowrap;
+    overflow: hidden;  
+    width: 100%;
+    margin: 10px 0;
+    animation: typing-2 4s steps(60, start);
+}
+
+
+.container-typing p:nth-child(2) {
+     
+    animation: typing-2 6s steps(60, start);
+}
+
+.container-typing p:nth-child(3) { 
+    
+    animation: typing-2 8s steps(60, start);
+}
+
+.container-typing p:nth-child(4) {
+     
+    animation: typing-2 10s steps(60, start);
+}
+
+.container-typing p:nth-child(5) {
+     
+    animation: typing-2 12s steps(60, start);
+}
+
+.container-typing p:nth-child(6) {
+     
+    animation: typing-2 14s steps(60, start);
+}
+
+.container-typing p:nth-child(7) {
+     
+    animation: typing-2 16s steps(60, start);
+}
+.container-typing p:nth-child(8) {
+     
+    animation: typing-2 18s steps(60, start);
+}
+.container-typing p:nth-child(9) {
+     
+    animation: typing-2 20s steps(60, start);
+}
+.container-typing p:nth-child(10) {
+     
+    animation: typing-2 22s steps(1000, start);
+}
+
+/* alineacion del texto para cuando termine de escribir */
+.container-typing p{
+    text-align: left;
+}
+
+.container-typing p:nth-last-child(2){
+    text-align: center;
+}
+
+@keyframes typing {
+    /* inicia  el parrafo desde el 0% del contenido escrito */
+    from {width: 0%;}
+}
+
+@keyframes typing-2 {
+    /* inicia y en el medio tiene 0% de ctexto completa y avanzará ahsta cuando vaya al 100% segun su duraicon de animation */
+    0% {width: 0;}
+    50% {width: 0;}
+    100% {width: 1000;}
+}
+
+/* parpadear poner en .0 de opacidad */
+@keyframes blink {
+    to {opacity: .0;}
+}
+
+/* pone un cursor o caracter parpadeando cada segundo infinitamente */
+.container-typing .cursor {
+    font-size: 30px;
+    animation: blink 1s infinite;
+}
+
+.container-typing .heart {
+    color: #ff7bac;
+}
