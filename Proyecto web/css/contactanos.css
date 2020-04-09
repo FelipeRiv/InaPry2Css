@@ -59,7 +59,10 @@ body {
 /* codigo propio */
 .xop-left:hover, .xop-right:hover {
     transform: scale(0.95);
-    box-shadow: 0px 0px 80px dodgerblue;
+    /* 30 144 255 */
+    /* box-shadow: 0px 0px 80px dodgerblue; */
+    /* box-shadow: 0px 0px 80px rgba(3, 4, 55); shadow*/
+    box-shadow: 3px 4px 37px #06b800;
 }
 
 .xop-left h1 { 

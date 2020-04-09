@@ -1,67 +1,77 @@
 @charset "UTF-8";
+
 /*----------------------------------------
 SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 ------------------------------------------*/
 .bg-primary {
-  background-color: #ff401c !important; }
+  background-color: #ff401c !important;
+}
 
 .text-primary {
-  color: #ff401c !important; }
+  color: #ff401c !important;
+}
 
 .btn-primary {
   background-color: #ff401c !important;
-  border-color: #b51d00 !important; }
+  border-color: #b51d00 !important;
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #e82500 !important; }
+  background-color: #e82500 !important;
+}
 
 .btn-primary:active {
   background-color: #b51d00 !important;
-  border-color: #821500 !important; }
+  border-color: #821500 !important;
+}
 
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
-          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
+}
 
 /*--------------------------
 ESTILOS DEL DISEÑO
 ---------------------------*/
 html {
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 body {
   color: #44484a;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 .card:hover {
   -webkit-box-shadow: 0 0 10px #0c0c0c3b;
-          box-shadow: 0 0 10px #0c0c0c3b; }
+  box-shadow: 0 0 10px #0c0c0c3b;
+}
 
 /*------------------------
 SHOW DE LOS MEDIAS QUERIES
 ------------------------*/
 @media (min-width: 768px) {
   html {
-    font-size: 16px; } }
+    font-size: 16px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
 
 /* **************************CODIGO PROPIO******************************* */
 
-.clearFix{
+.clearFix {
   float: none;
   clear: both;
 
 }
 
 /* Quien Soy */
-.quien-soy{
- 
-}
+.quien-soy {}
 
 /* Posicion de Caja de Quien soy */
-.margTop{
+.margTop {
   margin-top: 150px;
 }
 
@@ -69,7 +79,7 @@ SHOW DE LOS MEDIAS QUERIES
 
 /* CARRUSEL*/
 
-.content-all{
+.content-all {
 
   width: 220px;
   margin: 450px auto 20px auto;
@@ -78,89 +88,92 @@ SHOW DE LOS MEDIAS QUERIES
   margin-top: 75px;
 }
 
-.content-carrousel{
-  width: 100% ;
+.content-carrousel {
+  width: 100%;
   position: absolute;
   animation: rotar 25s infinite linear;
   transform-style: preserve-3d;
 }
 
-.content-carrousel:hover{
-  animation-play-state: paused;
+.content-carrousel:hover {
+  /* animation-play-state: paused; */
   cursor: pointer;
+  box-shadow: 0px 0px 0px #06b800;
+  ;
 
 }
 
 
-.content-carrousel figure{
+.content-carrousel figure {
   width: 100%;
   height: 128px;
-  overflow: hidden; 
+  overflow: hidden;
   position: absolute;
 
   box-shadow: 0px 0px 20px 8px gray;
   transition: all 300ms;
 }
 
-.content-carrousel figure:hover{
-  box-shadow: 0px 0px 0px crimson;
+.content-carrousel figure:hover {
+  box-shadow: 0px 0px 0px #06b800;
+  ;
   transition: all 1000ms;
 }
 
 
 
-.content-carrousel img{
+.content-carrousel img {
   width: 100%;
 }
 
 
-.content-carrousel figure:nth-child(1){
-  transform: rotateY(0deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(2){
-  transform: rotateY(40deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(3){
-  transform: rotateY(80deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(4){
-  transform: rotateY(120deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(5){
-  transform: rotateY(160deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(6){
-  transform: rotateY(200deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(7){
-  transform: rotateY(240deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(8){
-  transform: rotateY(280deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(9){
-  transform: rotateY(320deg)
-  translateZ(300px);
-}
-.content-carrousel figure:nth-child(10){
-  transform: rotateY(360deg)
-  translateZ(300px);
+.content-carrousel figure:nth-child(1) {
+  transform: rotateY(0deg) translateZ(300px);
 }
 
-@keyframes rotar{
-  from{
-      transform: rotateY(0deg);
+.content-carrousel figure:nth-child(2) {
+  transform: rotateY(40deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+  transform: rotateY(80deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+  transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+  transform: rotateY(160deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+  transform: rotateY(200deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+  transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(8) {
+  transform: rotateY(280deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(9) {
+  transform: rotateY(320deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(10) {
+  transform: rotateY(360deg) translateZ(300px);
+}
+
+@keyframes rotar {
+  from {
+    transform: rotateY(0deg);
   }
-  to{
-      transform: rotateY(-360deg);
+
+  to {
+    transform: rotateY(-360deg);
 
   }
 }
@@ -172,31 +185,114 @@ SHOW DE LOS MEDIAS QUERIES
 
 
 /* posicion de titulo de la seccion de quien soy */
-#tituloPrincipal{
+#tituloPrincipal {
   margin-top: -25px;
 }
 
 /* Fin codigo */
 
 /* posicion de imagen de la seccion de quien soy */
-#dev-img-index{
+#dev-img-index {
   margin-top: -100px;
 }
 
 
 /* FIN - CARRUSEL*/
 
-/*Seccion de Proyectos   */
+/* Proyectos   */
 
 /* ancho para cada proyecto y opacidad 0 para que js lo cambie a 1 cuando se muestre la animacion */
-.boxProyect{
+.boxProyect {
 
   width: 20%;
   margin: 15px auto;
-  
+
   opacity: 0;
-  
+
 }
 
-/*Fin Seccion de Proyectos   */
+/*Fin proyectos */
 
+
+/* Menu */
+#menu {
+  transition: all 0.39s linear !important;
+}
+
+#menu:hover {
+  /* transform: scale(1.5) !important; */
+
+  transform: scale(1.1) !important;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* margin: 0px auto; */
+
+
+  -moz-box-shadow: inset 3px 4px 37px #06b800;
+  -webkit-box-shadow: inset 3px 4px 37px #06b800;
+  box-shadow: inset 3px 4px 37px #06b800;
+
+}
+
+/* Fin menu */
+
+
+/* estilos color */
+.bg-main {
+  /* background-color: dodgerblue; */
+  background-color: rgb(78, 78, 78);
+  box-shadow: inset 3px 4px 37px #bebebe;
+}
+
+/* botones */
+.btn-main {
+  background-color: #44484a;
+  border-color: darken(#44484a, 20%) !important;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+  background-color: darken(#949494, 10%) !important;
+}
+
+.btn-main:active {
+  background-color: darken(#44484a, 20%) !important;
+  border-color: darken(#44484a, 30%) !important;
+}
+
+.btn-main:focus {
+  box-shadow: 0 0 0 0.2rem rgba(#44484a, .5) !important;
+}
+
+a.btn-main {
+  color: white !important;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .35s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+a.btn-main:hover {
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  text-decoration: none;
+  box-shadow: inset 0px 0px 10px #06b800;
+
+
+}
+
+/* Fin botones */
+
+/* estilos color */
