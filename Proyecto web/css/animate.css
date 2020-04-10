@@ -3626,4 +3626,8 @@
 
 /* codigo propio  */
 
+.link-animation:hover {
+  -webkit-animation-name: pulse !important;
+  animation-name: pulse !important;
+}
 /*  */
