@@ -1,4 +1,30 @@
 /* ANIMACIONES SECCION DE MIS PROYECTOS */
+/* animacion proyectos destacados */
+$(document).ready(function(){
+ 
+    // hide our element on page load
+    $('#title-An-1').css('opacity', 0);
+   
+    $('#title-An-1').waypoint(function() {
+        $('#title-An-1').addClass('bounceIn animated slower');
+        $('#title-An-1').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
+    }, { offset: '70%' });
+   
+  });
+
+/* animacion  imagen quien soy */
+$(document).ready(function(){
+ 
+    // hide our element on page load
+    $('.img-An-1').css('opacity', 0);
+   
+    $('.img-An-1').waypoint(function() {
+        $('.img-An-1').addClass('bounceIn animated slower');
+        $('.img-An-1').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
+    }, { offset: '80%' });
+   
+  });
+
 /* animacion proyectos centro */
 $(document).ready(function(){
  
