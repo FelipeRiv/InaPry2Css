@@ -278,7 +278,25 @@ SHOW DE LOS MEDIAS QUERIES
   box-shadow: 0 0 0 0.2rem rgba(#44484a, .5) !important;
 }
 
-a.btn-main {
+/* a.btn-main, input[type="submit"].btn-main, input[type="file"].btn-main, label[for="file"].btn-main{
+  color: white !important;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .35s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+} */
+.btn-main{
   color: white !important;
   display: inline-block;
   font-weight: 400;
@@ -297,14 +315,26 @@ a.btn-main {
   transition: color .35s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
-a.btn-main:hover {
+/* input[type="submit"].btn-main{
+  border: 1px solid white;
+
+} */
+
+.btn-main:hover{
   transform: scale(1.1);
   transition: all 0.3s linear;
   text-decoration: none;
   box-shadow: inset 0px 0px 10px #06b800;
-
-
+  
 }
+
+/* a.btn-main:hover, input[type="submit"].btn-main:hover{
+  transform: scale(1.1);
+  transition: all 0.3s linear;
+  text-decoration: none;
+  box-shadow: inset 0px 0px 10px #06b800;
+  
+} */
 
 /* Fin botones */
 

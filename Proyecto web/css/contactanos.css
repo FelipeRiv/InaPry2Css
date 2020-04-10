@@ -67,34 +67,15 @@ body {
 
 .xop-left h1 { 
     font-family:'open sans', 'sans-serif', cursive;
-    font-size: 16px;
+    font-size: 26px;
 }
 
-.xop-right h1 {
+.xop-right h2 {
     font-family: 'open sans', 'sans-serif', cursive;
-    font-size: 16px;
+    font-size: 26px;
+    margin-bottom: 61px;
 }
 
-.xop-button {
-    border-radius: 30px;
-    color: #fff;
-    background-color: #fcad26;
-    padding: 1.5%;
-    margin: 0 2%;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s;
-    width: 150px;
-}
-
-.xop-button:hover {
-    background: #fcc567;
-    color: #fff;
-}
 
 
 /* CODIGO PROPIO */
@@ -135,11 +116,7 @@ input, textarea{
 #socialIconGroup  i{
     font-size: 50px;
     margin: 20px;
-    color: rgba(255,255,255, 0.8);
-    
-    
     transition: all 0.3s linear;
-    
     
 }
 
@@ -147,10 +124,7 @@ input, textarea{
     transform: scale(1.3);
     color: rgba(255,255,255, 1);
     border-radius: 400px;
-    box-shadow: 0px 0px 30px dodgerblue;
-
-    
-
+    box-shadow: 0px 0px 10px 10px #06b800;
 }
 
 #ubicacion iframe{
@@ -165,11 +139,12 @@ input, textarea{
 
 #ubicacion iframe:hover{
     transform: scale(1.2);
-    box-shadow: 0px 0px 40px dodgerblue;
+    box-shadow: 0px 0px 40px 10px #06b800;
    
     
 }
 
+/* oculta el boton para usar el label */
 input[type="file"]{
     width: 0.1px;
     height: 0.1px;
@@ -179,27 +154,53 @@ input[type="file"]{
     z-index: -1;
 }
 
-.inputfile + label {
+/* label para el boton de input file */
+.inputfile + label{
 
-    border-radius: 30px;
-    color: #fff;
-    background-color: #fcad26;
     padding: 1.5%;
-    margin: 0 2%;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    width: 150px;
+    width: 140px;
+    background-color: #343a40;
+    transition: all 0.8s;
+}
 
-    transition: all 1.3s;
+div#contactButton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+#btnFormContacto{
+    margin-left: 15px;
+}
+
+.btn-contacto{
+    transition: all 0.8s;
+
+    border: 1px solid white;
+    color: white !important;
+    text-align: center;
+    user-select: none;
+    padding: .375rem .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+
+    
+    
 }
 
 .inputfile:focus + label,
-.inputfile + label:hover {
-    background-color: #fdcf8a;
+.inputfile + label:hover, .btn-contacto:hover {                     
+    transition: all 0.8s;
+    box-shadow: 0px 0px 10px 10px #06b800; 
 
 
 }
@@ -213,7 +214,7 @@ input:focus, textarea:focus{
     /* background-color: rgb(151, 203, 255); */
     background-color: #343a40;
     color: white;
-    box-shadow: 0px 0px 40px dodgerblue;
+    box-shadow: 0px 0px 10px 10px #06b800 ;
     /* opacity: 0.4; */
 }
 
