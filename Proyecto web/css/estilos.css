@@ -219,8 +219,8 @@ SHOW DE LOS MEDIAS QUERIES
 .boxProyect img:hover {
   box-shadow: 0px 0px 10px #06b800;
   transform: scale(1.1);
-
-
+  
+  
 }
 
 /*Fin proyectos */
@@ -229,6 +229,7 @@ SHOW DE LOS MEDIAS QUERIES
 /* Menu */
 #menu {
   transition: all 0.39s linear !important;
+  box-shadow: 0px 0px 20px #06b800;
 }
 
 #menu:hover {
