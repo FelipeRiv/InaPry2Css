@@ -25,6 +25,32 @@ $(document).ready(function(){
    
   });
 
+/* animacion  imagen quien soy */
+$(document).ready(function(){
+ 
+    // hide our element on page load
+    $('.img-An-2').css('opacity', 0);
+   
+    $('.img-An-2').waypoint(function() {
+        $('.img-An-2').addClass('rotateInDownLeft animated slower');
+        $('.img-An-2').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
+    }, { offset: '80%' });
+   
+  });
+
+/* animacion  imagen quien soy */
+$(document).ready(function(){
+ 
+    // hide our element on page load
+    $('.img-An-3').css('opacity', 0);
+   
+    $('.img-An-3').waypoint(function() {
+        $('.img-An-3').addClass('rotateInDownRight animated slower');
+        $('.img-An-3').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
+    }, { offset: '80%' });
+   
+  });
+
 /* animacion proyectos centro */
 $(document).ready(function(){
  

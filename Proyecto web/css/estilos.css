@@ -205,10 +205,13 @@ SHOW DE LOS MEDIAS QUERIES
 /* ancho para cada proyecto y opacidad 0 para que js lo cambie a 1 cuando se muestre la animacion */
 .boxProyect {
 
-  width: 20%;
-  margin: 15px auto;
+  width: 185px;
+  margin: 10px auto;
 
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
 }
 

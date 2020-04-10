@@ -35,6 +35,13 @@ body {
     background-position: bottom right;
     /* width: 960px; */
     margin: 0px auto 0px auto;
+    box-shadow:inset 0px 0px 10px 5px green;
+    transition: all 0.5s linear;
+}
+
+.container-typing:hover{
+    transition: all 2.5s linear;
+    box-shadow: 0px 0px 5px 5px green;
 }
 
 .filosofia{
@@ -122,6 +129,7 @@ body {
     text-align: left;
     text-indent: 135px;
 }
+
 
 .container-typing p:nth-last-child(2){
     text-align: center;
