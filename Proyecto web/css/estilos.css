@@ -212,14 +212,14 @@ SHOW DE LOS MEDIAS QUERIES
 }
 
 
-.boxProyect img{
-    transition: all 0.3s linear;
+.boxProyect img {
+  transition: all 0.3s linear;
 }
 
-.boxProyect img:hover{
+.boxProyect img:hover {
   box-shadow: 0px 0px 10px #06b800;
   transform: scale(1.1);
-  
+
 
 }
 
