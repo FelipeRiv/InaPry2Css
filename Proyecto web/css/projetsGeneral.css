@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica Neue; 
+}
+
+
+body{
+    /* background-color:black; */
+    background-image: url(../images/uni-4.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+section.projects{
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+div.contenedor{
+	width: 250px;
+	height: 220px;
+	/* float:left; */
+	margin: 30px 12px 15px 12px;
+	-webkit-transition: height .4s;
+	
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 10px 6px green;
+	transition: all 0.5s linear;
+}
+
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+div#uno{
+	background-color: rgb(3, 58, 208);
+}
+
+div#dos{
+    background-color: rgba(218, 218, 218, 0.767);
+}
+
+div#tres{
+    background-color: rgba(233, 26, 26, 0.623);
+}
+
+div#cuatro{
+	background-color: rgba(20, 192, 204, 0.616);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+img.icon-proj{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+    width:80px;
+	padding:15px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+.title-proj{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'open sans';
+}
+
+.img-proj{
+	width: 230px;
+	margin: 0px auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+	margin-bottom: 15px;
+}
+
+div.contenedor:hover{
+	height:405px;
+	border-radius: 100px 10px 50px 10px;
+	
+	box-shadow:inset 0px 0px 50px 1px lightgray;
+	
+	/* box-shadow: 0px 0px 50px 1px green; */
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+	
+}
+
+div.contenedor:hover img.icon-proj{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+	
+	/* box-shadow: 0px 0px 10px 1px green; */
+}
