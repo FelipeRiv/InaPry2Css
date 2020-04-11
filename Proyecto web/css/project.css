@@ -179,5 +179,17 @@ body {
     0 0 150px #7bffce;
 }
 
+.yellow {
+  text-shadow:
+    0 0 5px #f6ff7b,
+    0 0 10px #f6ff7b,
+    0 0 20px #f6ff7b,
+    0 0 40px #f6ff7b,
+    0 0 80px #f6ff7b,
+    0 0 90px #f6ff7b,
+    0 0 100px #f6ff7b,
+    0 0 150px #f6ff7b;
+}
+
 
 /* Neon lights */
