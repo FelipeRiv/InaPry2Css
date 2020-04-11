@@ -3662,4 +3662,39 @@
 
 /* Fin animaciones pagina proyecto 1 */
 
-/*  */
+/* animaciones pagina Proyectos */
+.icon-proj{
+  animation-duration: 2s;
+  /* animation-name: swing; */
+  animation-name: flash;
+  animation-name: rotateIn;
+  animation-name: rubberBand;
+  animation-name: bounce;
+  
+
+}
+
+.icon-proj:hover{
+  animation-duration: 1s;
+  /* animation-name: swing; */
+  animation-name: flash;
+  animation-name: bounce;
+  animation-name: rubberBand;
+  animation-name: tada;
+  animation-name: rotateIn;
+  animation-name: heartBeat;
+  
+  
+}
+.img-proj:hover{
+  animation-duration: 2s;
+  animation-name: pulse;
+}
+
+.an-Cont-proj{
+  animation-duration: 2s;
+  animation-name: pulse;
+
+}
+
+/* Fin animaciones pagina Proyectos */

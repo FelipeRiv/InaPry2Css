@@ -63,10 +63,13 @@ body {
 
 .proj-1-img-1 {
   background:
-    linear-gradient(rgba(0, 0, 0, 0.50),
-      rgba(0, 0, 0, 0.10)),
+    /* linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), */
     /* bottom, image */
-    url(../images/paint.jpg);
+    url(../images/pc/5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
   /* box-shadow: inset 3px 4px 37px #06b800; */
   /* box-shadow: 10px 10px 10px green; */
@@ -80,7 +83,12 @@ body {
   linear-gradient(rgba(0, 0, 0, 0.50),
   rgba(0, 0, 0, 0.10)),
   /* bottom, image */
-  url(../images/soap.jpg);
+  url(../images/pc/6.jpg);
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
 }
 
 .proj-1-box{
@@ -98,7 +106,11 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.50),
       rgba(0, 0, 0, 0.10)),
     /* bottom, image */
-    url(../images/flower.jpg);
+    url(../images/pc/7.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .proj-1-img-4 {
@@ -106,7 +118,11 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.50),
       rgba(0, 0, 0, 0.10)),
     /* bottom, image */
-    url(../images/feather.jpg);
+    url(../images/pc/8.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .proj-1-info {
