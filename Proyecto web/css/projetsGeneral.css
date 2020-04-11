@@ -1,7 +1,6 @@
 *{
 	margin:0px;
 	padding:0px;
-	font-family: Helvetica Neue; 
 }
 
 
@@ -13,6 +12,16 @@ body{
     background-size: cover;
     background-attachment: scroll;
 }
+
+footer{
+	margin-top: 20px;
+	  position: fixed;
+	  width: 100%;
+	  left: 0;
+	bottom: 0;
+  }
+  
+  
 
 section.projects{
 	width: 100%;
@@ -34,15 +43,6 @@ div.contenedor{
 	overflow: hidden;
 	box-shadow: 0px 0px 10px 6px green;
 	transition: all 0.5s linear;
-}
-
-
-
-footer{
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
 }
 
 div#uno{

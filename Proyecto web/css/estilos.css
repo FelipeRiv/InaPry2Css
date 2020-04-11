@@ -61,6 +61,45 @@ SHOW DE LOS MEDIAS QUERIES
 
 /* **************************CODIGO PROPIO******************************* */
 
+
+body{
+  /* background-color:black; */
+  background-image: url(../images/uni-4.jpg);
+  background-repeat: no-repeat;
+  /* opacity: 0.7; */
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+nav#menu{
+  opacity: 0.7;
+}
+
+footer{
+  opacity: 0.8;
+}
+
+
+
+
+
+.opact-1{
+  opacity: 1 !important;
+}
+.opact-6{
+  opacity: 0.7 !important;
+}
+.opact-7{
+  opacity: 0.7 !important;
+}
+
+.opact-8{
+  opacity: 0.8 !important;
+}
+.opact-9{
+  opacity: 0.9 !important;
+}
+
 .clearFix {
   float: none;
   clear: both;
@@ -99,7 +138,7 @@ SHOW DE LOS MEDIAS QUERIES
   /* animation-play-state: paused; */
   cursor: pointer;
   box-shadow: 0px 0px 0px #06b800;
-  ;
+  
 
 }
 
@@ -112,12 +151,14 @@ SHOW DE LOS MEDIAS QUERIES
 
   box-shadow: 0px 0px 20px 8px gray;
   transition: all 300ms;
+  
 }
 
 .content-carrousel figure:hover {
   box-shadow: 0px 0px 0px #06b800;
   ;
   transition: all 1000ms;
+  
 }
 
 
@@ -252,6 +293,11 @@ SHOW DE LOS MEDIAS QUERIES
 
 
 /* estilos color */
+
+.title-color-w{
+  color: white;
+}
+
 .bg-main {
   /* background-color: dodgerblue; */
   background-color: rgb(78, 78, 78);

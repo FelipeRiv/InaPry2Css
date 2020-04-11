@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
 
+*{
+  font-family: 'open sans';
+}
+body {
+  /* background: #000; */
+  font-size: 16px;
+}
 
 .proj-1-section {
   max-width: 960px;
@@ -128,10 +135,6 @@
 }
 
 /* Neon lights */
-body {
-  /* background: #000; */
-  font-size: 16px;
-}
 
 .neon {
   font-family: 'Londrina Outline', cursive;
