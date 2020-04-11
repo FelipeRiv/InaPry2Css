@@ -55,6 +55,12 @@ body {
     margin-bottom: -0px !important;
 }
 
+/* acomoda imagen de barra titulo para  */
+section.filosofia div .img-An-3{
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
 .container-typing p{ 
     color: white;
     font-family: 'myChalk','open sans';

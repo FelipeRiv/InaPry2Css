@@ -234,6 +234,10 @@ SHOW DE LOS MEDIAS QUERIES
 #menu {
   transition: all 0.39s linear !important;
   box-shadow: 0px 0px 20px #06b800;
+  border-radius: 8px;
+  width: 99.7%;
+  margin: 2px auto;
+
 }
 
 #menu:hover {
