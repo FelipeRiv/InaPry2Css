@@ -11,23 +11,9 @@ body {
 
 }
 
-/* .bgVideo{
-    position: fixed;
-    right: 0;
-    bottom: 0; */
-    /* background-attachment: fixed; */
-    /* min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background: url(../video/background2.mp4);
-    background-size: cover;
-} */
-
-.container-typing{
+.container-typing {
     background-image: url('../images/linedpapaper2.png');
-    width: 80%;
+    width: 92%;
     border-radius: 20px;
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
@@ -35,39 +21,37 @@ body {
     background-position: bottom right;
     /* width: 960px; */
     margin: 0px auto 0px auto;
-    box-shadow:inset 0px 0px 10px 5px green;
+    box-shadow: inset 0px 0px 10px 5px green;
     transition: all 0.5s linear;
 }
 
-.container-typing:hover{
+.container-typing:hover {
     transition: all 2.5s linear;
     box-shadow: 0px 0px 5px 5px green;
 }
 
-.filosofia{
+.filosofia {
     padding-bottom: 0px !important;
 }
 
-.flex-
-
-.container{
+.flex- .container {
     overflow: hidden;
     margin-bottom: -0px !important;
 }
 
 /* acomoda imagen de barra titulo para  */
-section.filosofia div .img-An-3{
+section.filosofia div .img-An-3 {
     margin-top: 20px;
     margin-bottom: 0px !important;
 }
 
-.container-typing p{ 
+.container-typing p {
     color: white;
-    font-family: 'myChalk','open sans';
+    font-family: 'myChalk', 'open sans';
     font-size: 40px;
     /* color: dimgray; */
     white-space: nowrap;
-    overflow: hidden;  
+    overflow: hidden;
     width: 100%;
     margin: 10px 0;
     animation: typing-2 4s steps(60, start);
@@ -75,52 +59,57 @@ section.filosofia div .img-An-3{
 
 
 .container-typing p:nth-child(2) {
-     
+
     animation: typing-2 6s steps(60, start);
 }
 
-.container-typing p:nth-child(3) { 
-    
+.container-typing p:nth-child(3) {
+
     animation: typing-2 8s steps(60, start);
 }
 
 .container-typing p:nth-child(4) {
-     
+
     animation: typing-2 10s steps(60, start);
 }
 
 .container-typing p:nth-child(5) {
-     
+
     animation: typing-2 12s steps(60, start);
 }
 
 .container-typing p:nth-child(6) {
-     
+
     animation: typing-2 14s steps(60, start);
 }
 
 .container-typing p:nth-child(7) {
-     
+
     animation: typing-2 16s steps(60, start);
 }
+
 .container-typing p:nth-child(8) {
-     
+
     animation: typing-2 18s steps(60, start);
 }
+
 .container-typing p:nth-child(9) {
-     
+
     animation: typing-2 20s steps(60, start);
 }
+
 .container-typing p:nth-child(10) {
-     
+
     animation: typing-2 22s steps(1000, start);
 }
-.text-Line-title{
+
+.text-Line-title {
     display: inline-block;
     font-size: 46px;
     font-weight: bold;
     font-family: 'open sans', sans-serif;
 }
+
 /* #img1{
     position: relative;
     top: 30px;
@@ -130,32 +119,46 @@ section.filosofia div .img-An-3{
 } */
 
 /* alineacion del texto para cuando termine de escribir */
-.container-typing p{
+.container-typing p {
     color: white;
     text-align: left;
     text-indent: 135px;
 }
 
 
-.container-typing p:nth-last-child(2){
+.container-typing p:nth-last-child(2) {
     text-align: center;
 }
 
 @keyframes typing {
+
     /* inicia  el parrafo desde el 0% del contenido escrito */
-    from {width: 0%;}
+    from {
+        width: 0%;
+    }
 }
 
 @keyframes typing-2 {
+
     /* inicia y en el medio tiene 0% de ctexto completa y avanzará ahsta cuando vaya al 100% segun su duraicon de animation */
-    0% {width: 0;}
-    50% {width: 0;}
-    100% {width: 1000;}
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 0;
+    }
+
+    100% {
+        width: 1000;
+    }
 }
 
 /* parpadear poner en .0 de opacidad */
 @keyframes blink {
-    to {opacity: .0;}
+    to {
+        opacity: .0;
+    }
 }
 
 /* pone un cursor o caracter parpadeando cada segundo infinitamente */
@@ -164,6 +167,62 @@ section.filosofia div .img-An-3{
     animation: blink 1s infinite;
 }
 
-.container-typing .heart {
-    color: #ff7bac;
+/* Responsive Design */
+
+/* pizzarra y typing */
+@media (max-width: 1220px) {
+
+    .container-typing p {
+        color: white;
+        text-align: left;
+        text-indent: 4px;
+        font-size: 4.6vw;
+    }
+
+    .container-typing .cursor {
+        font-size: 4.5vw;
+        animation: blink 1s infinite;
+    }
+
+    .container-typing {
+        width: 98vw;
+    }
+
+    /* Fin pizzarra y typing */
+
+    /* Banner con imagenes y titulo */
+    @media (max-width: 991px) {
+
+        /* imagenes de banner */
+        .img-banner {
+            width: 18vw;
+            /* margin: 0px auto 0px auto; */
+
+        }
+
+        .img-banner:first-child {
+            width: 18vw;
+            margin-top: 10px;
+            /* margin: 1vw 1vw 0px 1vw; */
+        }
+
+        /* Fin imagenes de banner */
+
+        /* h1  */
+        .text-Line-title {
+            display: inline-block;
+            font-size: 4vw;
+            margin: 0px 0px 0px 20px;
+            font-weight: bold;
+        }
+
+    }
+    /* Fin Banner con imagenes y titulo */
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 }
