@@ -10,9 +10,20 @@ body {
 
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 .xop-container {
-    margin-top: 80px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
 }
 
 .xop-container article{
@@ -223,5 +234,29 @@ input:focus, textarea:focus{
     box-shadow: 0px 0px 10px 10px #06b800 ;
     /* opacity: 0.4; */
 }
-
 /* FIN FORM */
+
+
+@media (max-width: 475px) {
+    h1, h2{
+        font-size: 7vw !important;
+    }
+    
+    form div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+
+    label{
+        text-align: center;
+        font-size: 4vw !important;
+    }
+
+    input, textArea{
+        margin: 0px auto;
+    }
+
+  }
