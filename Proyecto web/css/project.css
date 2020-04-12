@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
 
-*{
+* {
   font-family: 'open sans';
 }
+
 body {
   /* background: #000; */
   font-size: 16px;
@@ -13,6 +14,11 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0px 2%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .proj-1-grid {
@@ -37,6 +43,7 @@ body {
 .proj-1-section li {
   margin: 20px 60px 30px 40px;
 }
+
 .proj-1-grid li {
   width: 328px;
   height: 328px;
@@ -46,7 +53,6 @@ body {
 .proj-1-box {
   width: 100%;
   height: 100%;
-  position: relative;
   cursor: pointer;
   border-radius: 10px;
   -webkit-transition: 0.3s ease-in-out,
@@ -66,10 +72,10 @@ body {
     /* linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), */
     /* bottom, image */
     url(../images/pc/5.jpg);
-    -webkit-background-size: cover;
-    -webkit-background-position: center;
-    -webkit-background-attachment: fixed;
-    -webkit-background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -webkit-background-position: center;
+  -webkit-background-attachment: fixed;
+  -webkit-background-repeat: no-repeat;
 
   /* box-shadow: inset 3px 4px 37px #06b800; */
   /* box-shadow: 10px 10px 10px green; */
@@ -77,22 +83,23 @@ body {
 
 .proj-1-img-2 {
   background:
-  linear-gradient(rgba(0, 0, 0, 0.50),
-  rgba(0, 0, 0, 0.10)),
-  /* bottom, image */
-  url(../images/pc/6.jpg);
-  
+    linear-gradient(rgba(0, 0, 0, 0.50),
+      rgba(0, 0, 0, 0.10)),
+    /* bottom, image */
+    url(../images/pc/6.jpg);
+
   -webkit-background-size: cover;
   -webkit-background-position: center;
   -webkit-background-attachment: fixed;
 
 }
 
-.proj-1-box{
+.proj-1-box {
   box-shadow: 3px 4px 37px #06b800;
-  
+
 }
-.proj-1-box:hover{
+
+.proj-1-box:hover {
   box-shadow: 3px 4px 37px #06b800;
   box-shadow: 10px 10px 10px green;
 
@@ -105,9 +112,9 @@ body {
     /* bottom, image */
     url(../images/pc/7.jpg);
 
-    -webkit-background-size: cover;
-    -webkit-background-position: center;
-    -webkit-background-attachment: fixed;
+  -webkit-background-size: cover;
+  -webkit-background-position: center;
+  -webkit-background-attachment: fixed;
 }
 
 .proj-1-img-4 {
@@ -117,9 +124,9 @@ body {
     /* bottom, image */
     url(../images/pc/8.jpg);
 
-    -webkit-background-size: cover;
-    -webkit-background-position: center;
-    -webkit-background-attachment: fixed;
+  -webkit-background-size: cover;
+  -webkit-background-position: center;
+  -webkit-background-attachment: fixed;
 }
 
 .proj-1-info {
@@ -209,3 +216,67 @@ body {
 
 
 /* Neon lights */
+
+/* Responsive Desing */
+
+
+/* Banner con imagenes y titulo */
+@media (max-width: 1199px) {
+
+  /* imagenes de banner */
+  .img-banner {
+    width: 15vw;
+    margin-top: 4vh;
+    /* margin: 0px auto 0px auto; */
+
+  }
+
+  .img-banner:first-child {
+    width: 15vw;
+    margin-top: 4vh;
+    /* margin: 1vw 1vw 0px 1vw; */
+  }
+
+  /* Fin imagenes de banner */
+
+  /* h1  */
+  .text-Line-title {
+    display: inline-block;
+    font-size: 5.4vw;
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+  }
+
+  /* Fin Banner con imagenes y titulo */
+
+
+  /* centrado de cuadros */
+  .proj-1-section {
+    padding: 0px 0px 0px 5vh;
+  }
+  .proj-1-section li {
+    margin: 20px auto 30px auto;
+  }
+
+  /* centrado de cuadros */
+
+
+  .proj-1-box {
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out,
+      -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out,
+      -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+  }
+
+
+}
+
+
+
+/*Fin Responsive Desing */
