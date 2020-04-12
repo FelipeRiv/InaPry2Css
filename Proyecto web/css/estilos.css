@@ -44,9 +44,9 @@ body {
 
   /* --- */
   background-image: url(../images/uni-4.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .card:hover {
@@ -234,6 +234,14 @@ footer{
   margin-top: -100px;
 }
 
+.img-proj-min{
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 
 /* FIN - CARRUSEL*/
 
@@ -345,3 +353,59 @@ footer{
 /* Fin botones */
 
 /* estilos color */
+
+@media (max-width: 725px){
+
+
+  .content-all {
+
+    width: 220px;
+    margin: 450px auto 20px auto;
+    perspective: 1000px;
+    position: relative;
+    margin-top: 75px;
+  }
+  
+  .content-carrousel {
+    width: 100%;
+    position: absolute;
+    animation: rotar 25s infinite linear;
+    transform-style: preserve-3d;
+  }
+  
+  .content-carrousel:hover {
+    /* animation-play-state: paused; */
+    cursor: pointer;
+    box-shadow: 0px 0px 0px #06b800;
+    
+  
+  }
+  
+  
+  .content-carrousel figure {
+    width: 200px;
+    height: 96px;
+    overflow: hidden;
+    position: absolute;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+
+    box-shadow: 0px 0px 20px 8px gray;
+  
+    overflow: hidden;
+    
+  }
+
+  html, body{
+    overflow-x: ;
+  }
+  
+  
+  .content-carrousel img {
+    width: 100%;
+  
+  }
+  
+  
+}
