@@ -49,7 +49,7 @@ footer{
 
 .xop-left {
     background: linear-gradient(rgba(0,0,0,0.85), rgba(255,255,255,0.10)),
-        url(../images/city.png);
+        url(../images/city.jpg);
     background-size: cover;
     background-position: center;
     flex: 1;
@@ -60,7 +60,7 @@ footer{
 
 .xop-right {
     background: linear-gradient(rgba(0,0,0,0.85), rgba(164,222,102, 0.10)),
-        url(../images/country.png);
+        url(../images/country.jpg);
         background-size: cover;
         background-position: center;
     flex: 1;
