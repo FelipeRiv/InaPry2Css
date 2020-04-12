@@ -41,6 +41,12 @@ html {
 body {
   color: #44484a;
   font-family: 'Open Sans', sans-serif;
+
+  /* --- */
+  background-image: url(../images/uni-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .card:hover {
@@ -62,17 +68,9 @@ SHOW DE LOS MEDIAS QUERIES
 /* **************************CODIGO PROPIO******************************* */
 
 
-body{
-  /* background-color:black; */
-  background-image: url(../images/uni-4.jpg);
-  background-repeat: no-repeat;
-  /* opacity: 0.7; */
-  background-size: cover;
-  background-attachment: scroll;
-}
 
 nav#menu{
-  opacity: 0.7;
+  opacity: 0.9 !important;
 }
 
 footer{
@@ -81,13 +79,11 @@ footer{
 
 
 
-
-
 .opact-1{
   opacity: 1 !important;
 }
 .opact-6{
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
 }
 .opact-7{
   opacity: 0.7 !important;

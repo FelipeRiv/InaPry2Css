@@ -58,7 +58,7 @@ $(document).ready(function(){
     $('.boxProyectCenter').css('opacity', 0);
    
     $('.boxProyectCenter').waypoint(function() {
-        $('.boxProyectCenter').addClass('bounceInDown animated slower');
+        $('.boxProyectCenter').addClass('bounceInDown animated slow');
         $('.boxProyectCenter').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
     }, { offset: '60%' });
    
@@ -71,7 +71,7 @@ $(document).ready(function(){
     $('.boxProyectRight').css('opacity', 0);
    
     $('.boxProyectRight').waypoint(function() {
-        $('.boxProyectRight').addClass('bounceInRight animated slower delay-1s');
+        $('.boxProyectRight').addClass('bounceInRight animated slow delay-1s');
         $('.boxProyectRight').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
     }, { offset: '60%' });
    
@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('.boxProyectLeft').css('opacity', 0);
 
     $('.boxProyectLeft').waypoint(function() {
-        $('.boxProyectLeft').addClass('bounceInLeft animated slower delay-1s');
+        $('.boxProyectLeft').addClass('bounceInLeft animated slow delay-1s');
         $('.boxProyectLeft').css('opacity', 1);//le decimos que su opacity que en el css esta en 0 que se ponga en 1 para dejarlo mostrado
     }, { offset: '60%' });
    
