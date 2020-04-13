@@ -359,7 +359,9 @@ footer{
 /* carrusel index movil */
 @media (max-width: 765px){
 
-
+  html, body{
+    overflow-x: hidden;
+  }
   
 
   
