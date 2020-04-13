@@ -3,6 +3,8 @@
 /*----------------------------------------
 SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 ------------------------------------------*/
+
+
 .bg-primary {
   background-color: #ff401c !important;
 }
@@ -37,6 +39,7 @@ ESTILOS DEL DISEÑO
 html {
   font-size: 13px;
 }
+
 
 body {
   color: #44484a;
@@ -352,60 +355,14 @@ footer{
 
 /* Fin botones */
 
-/* estilos color */
 
-@media (max-width: 725px){
+/* carrusel index movil */
+@media (max-width: 765px){
 
 
-  .content-all {
+  
 
-    width: 220px;
-    margin: 450px auto 20px auto;
-    perspective: 1000px;
-    position: relative;
-    margin-top: 75px;
-  }
-  
-  .content-carrousel {
-    width: 100%;
-    position: absolute;
-    animation: rotar 25s infinite linear;
-    transform-style: preserve-3d;
-  }
-  
-  .content-carrousel:hover {
-    /* animation-play-state: paused; */
-    cursor: pointer;
-    box-shadow: 0px 0px 0px #06b800;
-    
-  
-  }
-  
-  
-  .content-carrousel figure {
-    width: 200px;
-    height: 96px;
-    overflow: hidden;
-    position: absolute;
-    background-position: center !important;
-    background-size: cover !important;
-    background-attachment: fixed;
-
-    box-shadow: 0px 0px 20px 8px gray;
-  
-    overflow: hidden;
-    
-  }
-
-  html, body{
-    overflow-x: ;
-  }
-  
-  
-  .content-carrousel img {
-    width: 100%;
-  
-  }
-  
   
 }
+
+/* carrusel index movil */
